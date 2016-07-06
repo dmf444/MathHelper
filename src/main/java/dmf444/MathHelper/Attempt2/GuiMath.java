@@ -172,7 +172,7 @@ public class GuiMath extends GuiScreen{
         }else if(type == mathType.MULTIPLICATION){
             equation = firstNum + " x " + secondNum + " =";
         }else if(type == mathType.DIVISION){
-            equation = firstNum + " " + (char)(246) + " " + secondNum + " =";
+            equation = firstNum + " " + (char)(247) + " " + secondNum + " =";
         }
 
         this.fontRendererObj.drawString(equation, x+40+(fontRendererObj.getStringWidth(equation)/2), y+50, 000000);
